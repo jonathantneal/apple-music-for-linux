@@ -7,6 +7,9 @@ grade: stable
 confinement: strict
 base: core18
 
+architectures:
+  - armhf
+
 layout:
   /usr/share/zenity:
     bind: $SNAP/usr/share/zenity
